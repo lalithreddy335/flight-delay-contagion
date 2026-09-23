@@ -230,3 +230,39 @@ multiplier (3.05x).
 
 \*\*Draft recommendation:\*\* raise AA DFW afternoon turnarounds to 75+ min.
 
+
+
+\## 7. Excel savings model: static buffers (AA @ DFW, 2025)
+
+\*\*Blanket rule (all turns to 75 min):\*\* 1.31M buffer min/yr, 121.6K delay min
+
+saved, $12.0M savings vs $32.1M buffer cost (at $24.60/ground min) = -$20.2M/yr.
+
+
+
+\*\*Break-even ground cost per added minute:\*\*
+
+\- All day: \~$9 | Afternoon only: \~$7 | Afternoon + Evening: \~$10
+
+\- Evening + Night: \~$15-16 (best)
+
+
+
+\*\*Findings:\*\*
+
+\- At the default ground-cost assumption, every static strategy loses money.
+
+\- Static buffers are inefficient: you pay on every turn, but only \~18% of
+
+&#x20; turns receive a late inbound plane.
+
+\- Evening/night buffers deliver 2-3x the value per minute because late
+
+&#x20; arrivals cluster there (27-34%).
+
+\- Implication: target buffers at chronically late inbound flights, not by
+
+&#x20; time of day. (Next: test risk-based buffering.)
+
+\- Model is conservative at very tight turns (delays amplify below 50 min).
+
