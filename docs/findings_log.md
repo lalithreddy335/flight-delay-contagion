@@ -174,3 +174,59 @@ multiplier (3.05x).
 
 \*\*Decision:\*\* Stakeholder = VP of Operations, American Airlines. Focus = DFW.
 
+
+
+\## 6. Turnaround analysis: American at DFW
+
+\*\*Buffer effect (AA @ DFW, incoming 15+ min late):\*\*
+
+| Turnaround | % passed on | Min absorbed |
+
+|---|---|---|
+
+| Under 40 | 98.9% | -44.3 |
+
+| 40-49 | 98.7% | -22.8 |
+
+| 50-59 | 90.7% | -13.1 |
+
+| 60-74 | 74.9% | -2.4 |
+
+| 75-89 | 56.7% | +10.4 |
+
+| 90-119 | 46.9% | +23.8 |
+
+| 120+ | 44.8% | +77.5 |
+
+\- Clear dose-response; tipping point \~75 min. Tight turns amplify delays.
+
+\- \~12-13 min absorbed per extra \~15 min of turnaround (to confirm via regression).
+
+\- Caveat: incoming delay differs by bucket; control for it in Python.
+
+
+
+\*\*Benchmark (median turn / % under 45 / % passed on when late):\*\*
+
+\- AA @ DFW: 68 / 7.0% / 64.0%
+
+\- DL @ ATL: 75 / 3.6% / 56.3%
+
+\- UA @ ORD: 75 / 2.8% / 55.0%
+
+\- WN @ DEN: 50 / 24.3% / 85.5%
+
+\- AA schedules \~7 min tighter than Delta, 2x the sub-45 turns, passes on
+
+&#x20; 8 pts more delays.
+
+
+
+\*\*DFW by time of day:\*\* afternoon has the tightest turns (65 min median,
+
+8.7% under 45) as late arrivals rise, which explains DFW afternoon as the #1 hotspot.
+
+
+
+\*\*Draft recommendation:\*\* raise AA DFW afternoon turnarounds to 75+ min.
+
