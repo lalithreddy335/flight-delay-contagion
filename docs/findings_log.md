@@ -46,3 +46,41 @@
 
 \*Note: On-time % is measured among flights that operated (excludes cancelled).\*
 
+
+
+
+
+\## 3. Estimated airline delay cost by year (2025 dollars, $98.41/min)
+
+| Year | Flights | Delay cost |
+
+|---|---|---|
+
+| 2021 | 6.00M | $7.12B |
+
+| 2022 | 6.73M | $9.79B |
+
+| 2023 | 6.85M | $10.11B |
+
+| 2024 | 7.08M | $10.90B |
+
+| 2025 | 7.00M | $11.69B |
+
+
+
+\*\*Findings:\*\*
+
+\- \~$49.6B in estimated airline delay costs over 5 years.
+
+\- Costs rose 64% from 2021 to 2025.
+
+\- 2025 cost more than 2024 despite fewer flights: cost per flight rose \~8%
+
+&#x20; ($1,540 to $1,670), so delays are getting worse per flight.
+
+
+
+\*Method: arrival delay minutes × A4A 2025 cost per block minute. Direct airline
+
+cost only; excludes passenger time.\*
+
