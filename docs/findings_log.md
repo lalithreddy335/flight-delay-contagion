@@ -266,3 +266,47 @@ saved, $12.0M savings vs $32.1M buffer cost (at $24.60/ground min) = -$20.2M/yr.
 
 \- Model is conservative at very tight turns (delays amplify below 50 min).
 
+
+
+\## 8. Risk-based buffering (learned on 2024, tested on 2025)
+
+\*\*Validation:\*\* 2024 inbound late rate predicts 2025 lateness in a clean
+
+staircase: 13.9% (under-15% tier) up to 36.2% (35%+ tier), 2.6x.
+
+
+
+| Min inbound late rate (2024) | Turns | Break-even $/min | Net at $24.60 |
+
+|---|---|---|---|
+
+| 0% (blanket) | 73,998 | $9.17 | -$20.2M |
+
+| 20% | 37,931 | $12.50 | -$8.0M |
+
+| 30% | 18,409 | $15.80 | -$2.8M |
+
+| 40% | 6,109 | $17.99 | -$0.7M |
+
+
+
+\- Cross-check: 0% row matches the Excel model exactly.
+
+\- Targeting nearly doubles break-even and cuts the loss by 97%.
+
+\- Top tier pays off if knock-on savings >= 1.37x (chain analysis: 1.31x
+
+&#x20; evening, 2.08x afternoon), so plausible but unproven.
+
+
+
+\*\*Final recommendation:\*\*
+
+1\. No blanket buffers (-$20M/yr).
+
+2\. Pilot risk-based buffers on \~6,100 highest-risk turns (\~105K buffer min/yr);
+
+&#x20;  measure before scaling.
+
+3\. Fix chronically late inbound flights at the source.
+
