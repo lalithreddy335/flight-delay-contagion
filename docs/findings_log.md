@@ -126,3 +126,51 @@ cost only; excludes passenger time.\*
 
 &#x20; late morning does.
 
+
+
+\## 5. Where chains start: airports, airlines, hotspots
+
+\*\*Airports:\*\* DFW is #1: $2.88B chain cost, $1.21B downstream, and the highest
+
+chain-start rate of any major hub (169.5 per 1K departures).
+
+
+
+\*\*Airlines:\*\*
+
+| Airline | Flights | Chain cost | Cost per flight |
+
+|---|---|---|---|
+
+| American | 4.42M | $8.28B | \~$1,870 |
+
+| Southwest | 6.52M | $7.42B | \~$1,140 |
+
+| Delta | 4.61M | $5.30B | \~$1,150 |
+
+| United | 3.31M | $4.61B | \~$1,390 |
+
+
+
+\- American has the highest chain cost despite flying 2.1M fewer flights than
+
+&#x20; Southwest; \~63% higher cost per flight than Delta.
+
+\- Including wholly owned regionals Envoy + PSA: \~$11.5B.
+
+\- Southwest spreads delays most among big carriers (49.7%, 2.45x).
+
+
+
+\*\*Top hotspots (downstream cost, 5 yrs):\*\* DFW afternoon $529M, ATL afternoon
+
+$359M, ORD afternoon $333M, CLT afternoon $317M, DEN afternoon $313M.
+
+DFW appears 3x in the top 8 (\~$1.11B combined). MCO morning has the highest
+
+multiplier (3.05x).
+
+
+
+\*\*Decision:\*\* Stakeholder = VP of Operations, American Airlines. Focus = DFW.
+
