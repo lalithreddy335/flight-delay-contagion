@@ -84,3 +84,45 @@
 
 cost only; excludes passenger time.\*
 
+
+
+\## 4. Delay chains (aircraft-level tracing)
+
+\- 4.1M delay chains; 37.6% spread to at least one more flight; longest = 20 flights.
+
+\- 41.5% of chain delay minutes were inherited. Validates against BTS's own
+
+&#x20; late-aircraft share (38.8%), within 3 points.
+
+\- Chains cost an estimated $46.3B (2021-2025).
+
+
+
+| Start time | % spread | Multiplier | Avg chain cost |
+
+|---|---|---|---|
+
+| Early Morning (5-9) | 42.2% | 2.35x | $14,131 |
+
+| Morning (9-12) | 51.7% | 2.51x | $13,072 |
+
+| Afternoon (12-5) | 48.9% | 2.08x | $11,685 |
+
+| Evening (5-9) | 19.6% | 1.31x | $8,265 |
+
+| Night (9-5) | 7.1% | 1.22x | $7,779 |
+
+
+
+\*\*Findings:\*\*
+
+\- 9 AM-noon delays spread most (52% chance; 1 min becomes \~2.5 min).
+
+\- Early-morning chains cost the most per chain ($14.1K).
+
+\- Chains starting before 5 PM = \~76% of chain cost (\~$35.4B).
+
+\- Hypothesis correction: expected early morning to spread most; data showed
+
+&#x20; late morning does.
+
