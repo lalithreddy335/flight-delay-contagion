@@ -1,0 +1,198 @@
+{
+  "name": "Flight Delay Contagion (Dark)",
+  "dataColors": [
+    "#3FD0E6",
+    "#FFA24C",
+    "#FF5D6C",
+    "#8B7CF6",
+    "#2FD69A",
+    "#4C8DFF",
+    "#F5D76E",
+    "#A0AEC8"
+  ],
+  "background": "#0A1224",
+  "foreground": "#E8EEF8",
+  "tableAccent": "#FFA24C",
+  "good": "#2FD69A",
+  "neutral": "#FFA24C",
+  "bad": "#FF5D6C",
+  "maximum": "#FFA24C",
+  "center": "#3FD0E6",
+  "minimum": "#101B33",
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 13,
+      "color": "#8C9BB8"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 40,
+      "color": "#E8EEF8"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 16,
+      "color": "#E8EEF8"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 14,
+      "color": "#E8EEF8"
+    },
+    "largeTitle": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 20,
+      "color": "#E8EEF8"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#8C9BB8"
+              }
+            },
+            "fontSize": 13,
+            "showAxisTitle": false,
+            "gridlineShow": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#8C9BB8"
+              }
+            },
+            "fontSize": 12,
+            "showAxisTitle": false,
+            "gridlineShow": true,
+            "gridlineColor": {
+              "solid": {
+                "color": "#1C2A4A"
+              }
+            },
+            "gridlineStyle": "dotted"
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#E8EEF8"
+              }
+            },
+            "fontSize": 13,
+            "position": "Top"
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#E8EEF8"
+              }
+            },
+            "fontSize": 13
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0A1224"
+              }
+            }
+          }
+        ],
+        "background": [
+          {
+            "transparency": 100
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#E8EEF8"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#101B33"
+              }
+            },
+            "fontSize": 13
+          }
+        ],
+        "values": [
+          {
+            "fontColorPrimary": {
+              "solid": {
+                "color": "#E8EEF8"
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": "#101B33"
+              }
+            },
+            "fontColorSecondary": {
+              "solid": {
+                "color": "#E8EEF8"
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": "#13213E"
+              }
+            },
+            "fontSize": 13
+          }
+        ],
+        "grid": [
+          {
+            "gridVertical": false,
+            "gridHorizontalColor": {
+              "solid": {
+                "color": "#1C2A4A"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
